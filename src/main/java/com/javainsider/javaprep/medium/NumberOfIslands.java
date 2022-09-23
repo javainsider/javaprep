@@ -21,7 +21,10 @@ public class NumberOfIslands {
         int colNbr[] = new int[]{-1, 0, 1, -1, 1, -1, 0, 1};
 
         // Mark this cell as visited
+
+        // Mark this cell as visited
         visited[row][col] = true;
+
 
         // Recur for all connected neighbours
         for (int k = 0; k < 8; ++k)
